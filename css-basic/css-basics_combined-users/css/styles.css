@@ -53,6 +53,7 @@ li {
 }
 
 .bio {
+  display: none;
   font-size: 12px;
   color: darkslategray;
   margin: 6px 0;
@@ -61,8 +62,9 @@ li {
 .location {
   font-size: 10px;
   font-weight: 600;
-  text-align: end;
+  text-align: left;
   margin: 0;
+  color: darkslategray;
 }
 
 /*
