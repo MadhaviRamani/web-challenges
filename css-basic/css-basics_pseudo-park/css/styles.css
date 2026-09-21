@@ -23,6 +23,22 @@
 .animal {
   font-size: 32px;
 }
+.animal.giraffe {
+  text-align: center;
+  
+}
+.animal.dino {
+  text-align: right;
+}
+.animal.crocodile:hover {
+  background-color: lightblue;
+}
+.animal.giraffe:hover {
+  background-color: lightgreen;
+}
+.animal.dino:hover {
+  background-color: lightsalmon;
+} 
 
   /*
     The animals are very small.
