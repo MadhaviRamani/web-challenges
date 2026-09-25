@@ -9,7 +9,10 @@ console.clear();
 	- a boolean called `isReported` to indicate whether the post has been reported
 */
 
-// --v-- write your code here --v--
+
+const posttitle = "Social-Media";
+console.log(posttitle);
+
 
 // --^-- write your code here --^--
 
