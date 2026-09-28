@@ -110,7 +110,7 @@ multiplyByTwo.addEventListener("click", () => {
 operand1 = operand1 * 2;
 console.log(operand1);
 });
-
+git add .ATTRIBUTE_NODE
 divideByTwo.addEventListener("click", () => {
 operand1 = operand1 / 2;
 console.log(operand1);
