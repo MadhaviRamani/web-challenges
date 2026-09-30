@@ -18,7 +18,7 @@ const modulo = document.querySelector('[data-js="modulo"]');
 const increaseByOne = document.querySelector('[data-js="increase-by-one"]');
 const increaseByFive = document.querySelector('[data-js="increase-by-five"]');
 const decreaseByOne = document.querySelector('[data-js="decrease-by-one"]');
-const  decreaseByFive = document.querySelector('[data-js="decrease-by-five"]');
+const decreaseByFive = document.querySelector('[data-js="decrease-by-five"]');
 const multiplyByTwo = document.querySelector('[data-js="multiply-by-two"]');
 const divideByTwo = document.querySelector('[data-js="divide-by-two"]');
 // --^-- write your code here --^--
@@ -35,42 +35,41 @@ For each operation (add, subtract, multiply, divide, exponent, and modulo):
 
 let result = 0;
 add.addEventListener("click", () => {
-    result = operand1 + operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
+  result = operand1 + operand2;
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
   console.log("Result: ", result);
 });
 subtract.addEventListener("click", () => {
   result = operand1 - operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
   console.log("Result: ", result);
 });
 multiply.addEventListener("click", () => {
   result = operand1 * operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
   console.log("Result: ", result);
 });
 divide.addEventListener("click", () => {
   result = operand1 / operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
-  console.log("Result:" ,result);
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
+  console.log("Result:", result);
 });
 exponent.addEventListener("click", () => {
   result = operand1 ** operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
   console.log("Result: ", result);
 });
 modulo.addEventListener("click", () => {
   result = operand1 % operand2;
-    console.log("operand1", operand1);
-    console.log("operand2", operand2);
+  console.log("operand1", operand1);
+  console.log("operand2", operand2);
   console.log("Result: ", result);
 });
-
 
 // ----- Update the First Operand -----
 
@@ -87,32 +86,32 @@ Step 2: Add event listeners to update `operand1` based on the button clicked. Lo
 // --v-- write your code here --v--
 
 increaseByOne.addEventListener("click", () => {
-operand1 = operand1 + 1;
-console.log(operand1);
+  operand1 = operand1 + 1;
+  console.log(operand1);
 });
 
 increaseByFive.addEventListener("click", () => {
-operand1 = operand1 + 5;
-console.log(operand1);
+  operand1 = operand1 + 5;
+  console.log(operand1);
 });
 
 decreaseByOne.addEventListener("click", () => {
-operand1 = operand1 - 1;
-console.log(operand1);
+  operand1 = operand1 - 1;
+  console.log(operand1);
 });
 
 decreaseByFive.addEventListener("click", () => {
-operand1 = operand1 - 5;
-console.log(operand1);
+  operand1 = operand1 - 5;
+  console.log(operand1);
 });
 
 multiplyByTwo.addEventListener("click", () => {
-operand1 = operand1 * 2;
-console.log(operand1);
+  operand1 = operand1 * 2;
+  console.log(operand1);
 });
-git add .ATTRIBUTE_NODE
+add.ATTRIBUTE_NODE;
 divideByTwo.addEventListener("click", () => {
-operand1 = operand1 / 2;
-console.log(operand1);
+  operand1 = operand1 / 2;
+  console.log(operand1);
 });
 // --^-- write your code here --^--

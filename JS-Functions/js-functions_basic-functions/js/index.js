@@ -10,8 +10,18 @@ console.clear();
 
 // --v-- write your code here --v--
 
-// --^-- write your code here --^--
+const bookTitle = "The Lord of the Javascript";
+const bookAuthor = "Mario";
+let bookRating = 4.2;
+let bookSales = 120;
 
+ console.log("Title: ", bookTitle);
+console.log("Author: ",bookAuthor);
+console.log("Rating: ",bookRating);
+console.log("Sales: ",bookSales); 
+
+// --^-- write your code here --^--
+console.log("---------------------------");
 /*
 2: Log all variables to the console, for example:
 
@@ -27,8 +37,15 @@ Then:
 */
 
 // --v-- write your code here --v--
+bookRating = 4.5;
+bookSales = bookSales + 50;
 
+console.log("Title: ", bookTitle);
+console.log("Author: ",bookAuthor);
+console.log("Rating: ",bookRating);
+console.log("Sales: ",bookSales);
 // --^-- write your code here --^--
+console.log("---------------------------")
 
 /*
 3: The logging code above is repetitive and hard to maintain.
@@ -41,4 +58,16 @@ Then:
 
 // --v-- write your code here --v--
 
+function logBookData() {
+console.log("Title: ", bookTitle);
+console.log("Author: ",bookAuthor);
+console.log("Rating: ",bookRating);
+console.log("Sales: ",bookSales);
+}
+logBookData();
+bookSales = bookSales + 50;
+logBookData();
+bookSales = bookSales + 50;
+logBookData();
 // --^-- write your code here --^--
+
